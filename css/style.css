@@ -1,6 +1,6 @@
 html, body, .container-table
 {
-    height: 100%;
+    height: calc(100% - 50px);
 }
 
 /*Making a div in center*/
