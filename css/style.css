@@ -1,15 +1,48 @@
+/*						Generalised CSS					*/
 html, body, .container-table
 {
-    height: calc(100% - 50px);
+	height: calc(100% - 50px);
 }
 
 /*Making a div in center*/
 .container-table
 {
-    display: table;
+	display: table;
 }
 .vertical-center-row
 {
-    display: table-cell;
-    vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.col-xs-offset-right-2
+{
+	margin-right: 16.66666667%;
+}
+
+/*						Screen Dependent CSS - Md					*/
+@media (min-width: 768px)
+{
+	.col-sm-offset-right-2
+	{
+		margin-right: 16.66666667%;
+	}
+}
+
+/*						Screen Dependent CSS - Lg					*/
+@media (min-width: 992px)
+{
+	.col-md-offset-right-2
+	{
+		margin-right: 16.66666667%;
+	}
+}
+
+/*						Screen Dependent CSS - XL					*/
+@media (min-width: 1200px)
+{
+	.col-lg-offset-right-2
+	{
+		margin-right: 16.66666667%;
+	}
 }
